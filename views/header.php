@@ -16,6 +16,7 @@
     }
     ?>
 </head>
+
 <body>
 
 <?php Session::init(); ?>
