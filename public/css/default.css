@@ -1,0 +1,103 @@
+body {
+	background: silver;
+	font-family: Helvetica;
+}
+/*
+*************************
+	* STRUCTURE
+*************************
+*/
+#header a{
+	text-decoration: none;
+	padding: 10px 15px;
+	background: #8b1d1d;
+	text-decoration: none;
+	color: #FFF;
+}
+#header a:hover{
+	background: #a93535;
+}
+#header{
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#header, #footer{
+	background: #560404;
+	padding: 20px;	
+}
+#content {
+	background: #fff;
+	padding: 20px;	
+}
+#footer{
+	border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;	
+    color: #FFF;
+}
+
+
+/*
+*************************
+	* FORM
+*************************
+*/
+
+
+form {
+	font: 100% verdana,arial,sans-serif;
+	margin: auto;
+}
+
+form label { 
+	display: block;
+	float: left; 
+	width: 150px; 
+	padding: 0; 
+	margin: 9px 0 0;
+	text-align: right; 
+}
+
+form input, form select {
+	width: auto;
+	margin: 5px 0 0 10px;
+	border: 1px solid gray;
+	padding: 4px;
+}
+
+form input[type=submit]:hover {
+	cursor: pointer;
+	background: #a93535;
+}
+
+form input[type=submit]{
+	color: #FFF;
+	background: #560404;
+	border: 0;
+	padding: 7px;
+	width: 179px;
+}
+
+form select{
+	width: 179px;
+}
+form br {clear: left;}
+
+/*
+*************************
+	* user list
+*************************
+*/
+
+.listButton{
+	padding: 5px;
+	background: #560404;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.row{
+	margin-bottom: 20px;
+	margin-left: 20px;
+	/*background: black;*/
+}
+
